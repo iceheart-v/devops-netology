@@ -1,5 +1,5 @@
 # devops-netology
-In terraform foled will be ignored:
+In terraform folder will be ignored:
   any '.terraform' folders with all files in it 
   any files with '.tfstate' or '.tfstate.' in it
   any '.tfvars' files
