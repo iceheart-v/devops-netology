@@ -1,0 +1,13 @@
+version: "3.9"
+services:
+
+  debian:
+    image: "debian"
+    volumes:
+      - "./data:/data"
+    entrypoint: sleep 1000
+  ubuntu:
+    image: "ubuntu"
+    volumes:
+      - "./data:/data"
+    entrypoint: sleep 1000
